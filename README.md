@@ -8,8 +8,8 @@
 
 ## Basic usage
 
-Here's an example using rspec-core:
+Here's an a list of prerequisite in order to run the tests:
 
 ```ruby
-
+ruby '2.0.0'
 ```
