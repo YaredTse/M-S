@@ -1,6 +1,6 @@
 #### M-S Test Framework
 
-##### This is a demonstrating how a Framework can be developed, with BDD, and Page Object model design pattern.
+##### This is a demonstration on how a Framework can be developed, with BDD, and Page Object model design pattern in mind.
 
 ##### This test framework is set up in such a way that it works-out-of-the-box with minimum onfiguration required
 
@@ -12,25 +12,6 @@ Here's an a list of prerequisite in order to run the tests:
 First thing you need to clone the project from github,
 
 * [Test Framework Link(https://github.com/YaredTse/M-S.git)
-
-
-### Chromdriver, 
-
-If you you don't have Chromedriver installed, you might run into problems, 
-
-I have chosen to run the test using Chrome because, I have chrome installed and I work predominatly on Chrome,  and in order to run the test you would need Chromedriver 
-
-which you can find it here
-* [Chromedriver Link](http://chromedriver.storage.googleapis.com/index.html?path=2.21/)
-
-
-Open Terminal and place it under your bin directory
-
-```ruby
-mv ~/Downloads/chromedriver /usr/local/bin/
-```
-
-Once moved to the usr directory, then close Terminal completly and reopen.
 
 
 ### Ruby
@@ -61,6 +42,25 @@ And now installing Gems.  Gems are essentially libraries in Java
 bundle install
 ```
 
+### Chromdriver, 
+
+If you you don't have Chromedriver installed, you might run into problems, 
+
+I have chosen to run the test using Chrome because, I have chrome installed and I work predominatly on Chrome,  and in order to run the test you would need Chromedriver 
+
+which you can find it here
+* [Chromedriver Link](http://chromedriver.storage.googleapis.com/index.html?path=2.21/)
+
+
+Open Terminal and place it under your bin directory
+
+```ruby
+mv ~/Downloads/chromedriver /usr/local/bin/
+```
+
+Once moved to the usr directory, then close Terminal completly and reopen.
+
+
 At this point you should have eveything you need to run the test, and you can do 
 
 ## Basic usage
@@ -75,9 +75,3 @@ Scenaryo by scenario
 
 Entitre test suit
 - cucumber  
-
-
-
-
-
-
