@@ -19,11 +19,17 @@ I have chosen to run the test using Chrome because, I have chrome installed and 
 which you can find it here
 * [Chromedriver Link](http://chromedriver.storage.googleapis.com/index.html?path=2.21/)
 
-And extract it and put it under:
+
+Open Terminal and place it under your bin directory
 
 ```ruby
 mv ~/Downloads/chromedriver /usr/local/bin/
 ```
+
+Once moved to the usr directory, then close Terminal completly and reopen.
+
+
+The language I have chosen to use for this demonstration is Ruby.  Altough I could have used Java, I have picked up Ruby because it's compiled language hence I can prototype something very quickly.  And also the fact that it supports BDD in a very elegant way. 
 
 ```ruby
 ruby '2.0.0'
