@@ -14,6 +14,10 @@ Then(/^I should have a list of items related to my search with "([^"]*)" display
    expect(@homepage.search_message.text).to eq(message.to_s)
 end
 
+Then(/^I should see a list of results related to the search term$/) do
+  expect(@homepage.search_counts.first.text.to_i).to be > 1
+end
+
 Then(/^I should see an empty list$/) do
   expect(@homepage.no_result).to be_visible
 end

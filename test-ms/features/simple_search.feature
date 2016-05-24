@@ -11,7 +11,8 @@ So that I can locate the items that I am interested
     Given I have entered a valid search term of "<term>"
      When I hit the search button 
      Then I should have a list of items related to my search with "<msg>" displayed
-  
+     And I should see a list of results related to the search term
+
     Examples: 
       |  term       |                msg             | 
       | Socks       |    Search results for Socks    | 
@@ -34,8 +35,8 @@ So that I can locate the items that I am interested
     Given I have entered a valid search term "Jeans"
      When I hit the search button 
      Then I should have a list of items related to my search
-     When I select the first iteam from the search
-     Then I should be on the iteam details page
+     When I select the first item from the search
+     Then I should be on the item details page
   
   Scenario Outline: Browse by category
      When I browse to "<category>" category
@@ -54,4 +55,4 @@ So that I can locate the items that I am interested
   #Scenario: Register a new user
   #  Given I am on the registration page
   #   When I enter my personal details
-  #    And i confirm registration
+  #    And I confirm registration

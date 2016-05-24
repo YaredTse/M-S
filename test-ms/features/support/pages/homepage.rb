@@ -15,12 +15,13 @@ class Homepage < SitePrism::Page
 
   element :location_link, ".link.touch-hidden"
   element :store_search,   "#store-search"
+  element :location_link, ".link.touch-hidden"
+  elements :search_counts,   ".count"
 
   element :location_btn, ".button.primary-btn.not-touch"
   elements :list_of_stores, ".store-item__name.ng-binding"
 
   element :store_finder, ".store-finder-container.ng-scope"
-
 
   def find_text(selector, text)
     selector.each do |link|
