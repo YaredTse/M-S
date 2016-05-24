@@ -6,3 +6,10 @@
 
 
 
+## Basic usage
+
+Here's an example using rspec-core:
+
+```ruby
+
+```
