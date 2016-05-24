@@ -7,7 +7,7 @@
 
 You should have Chromedriver installed 
 
-## prerequisite
+## Prerequisite
 
 Here's an a list of prerequisite in order to run the tests:
 
@@ -29,7 +29,9 @@ mv ~/Downloads/chromedriver /usr/local/bin/
 Once moved to the usr directory, then close Terminal completly and reopen.
 
 
-The language I have chosen to use for this demonstration is Ruby.  Altough I could have used Java, I have picked up Ruby because it's compiled language hence I can prototype something very quickly.  And also the fact that it supports BDD in a very elegant way. 
+### Ruby
+
+The language I have chosen to use for this demonstration is Ruby.  Altough I could have used Java, I have picked up Ruby because it's compiled language hence I can prototype something very quickly.  And also the fact that it supports BDD in a very elegant way.  If you are using the latest Mac Book Pro, it should come wwith OS by default. 
 
 ```ruby
 ruby '2.0.0'
@@ -41,9 +43,9 @@ Once you have ruby installed then please install bundler
 bundle install
 ```
 
-The next step is to install Cucumber it's self as well as  other dependencies, using bundler
+The next step is to install Cucumber, as well as other dependencies, using bundler.
 
-change directory to root directory from where Gemfile is present, and execute the following command,
+Change directory to root directory from where Gemfile is present, and execute the following command,
 
 ```ruby
 cd M-S/test-ms
@@ -58,5 +60,20 @@ bundle install
 At this point you should have eveything you need to run the test, and you can do 
 
 ## Basic usage
+
+By this point you should have everything set up and ready to run test.  And in order to run it you should be under ** test/M-S/test-ms ** directory, and choose whichever flavour you prefer using from the following list. 
+
+File by file 
+- cucumber  features/simple_search.feature
+
+Scenaryo by scenario
+- cucumber  features/simple_search.feature:19
+
+Entitre test suit
+- cucumber  
+
+
+
+
 
 
