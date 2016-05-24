@@ -5,10 +5,25 @@
 ##### This test framework is set up in ssuch a way that it works-out-of-the-box with minimum onfiguration required
 
 
+You should have Chromedriver installed 
 
-## Basic usage
+## prerequisite
 
 Here's an a list of prerequisite in order to run the tests:
+
+
+### Chromdriver,   
+
+I have chosen to run the test using Chrome because, I have chrome installed and I work predominatly on Chrome,  and in order to run the test you would need Chromedriver 
+
+which you can find it here
+* [http://chromedriver.storage.googleapis.com/index.html?path=2.21/](Chromedriver Link)
+
+And extract it and put it under:
+
+```ruby
+mv ~/Downloads/chromedriver /usr/local/bin/
+```
 
 ```ruby
 ruby '2.0.0'
@@ -35,3 +50,7 @@ bundle install
 ```
 
 At this point you should have eveything you need to run the test, and you can do 
+
+## Basic usage
+
+
