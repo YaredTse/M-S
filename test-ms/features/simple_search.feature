@@ -11,13 +11,13 @@ So that I can locate the items that I am interested
     Given I have entered a valid search term of "<term>"
      When I hit the search button 
      Then I should have a list of items related to my search with "<msg>" displayed
-     And I should see a list of results related to the search term
-
+      And I should see a list of results related to the search term
+  
     Examples: 
-      |  term       |                msg             | 
-      | Socks       |    Search results for Socks    | 
-      | Shoes       |    Search results for Shoes    | 
-      | Jeans       |    Search results for Jeans    | 
+      | term  | msg                      | 
+      | Socks | Search results for Socks | 
+      | Shoes | Search results for Shoes | 
+      | Jeans | Search results for Jeans | 
   
   Scenario Outline: Search for invalid team
     Given I have entered a invalid search term of "<term>"
@@ -26,10 +26,10 @@ So that I can locate the items that I am interested
      Then I should have a list of items related to my search with "<msg>" displayed
   
     Examples: 
-      | term        | msg | 
-      | shgdhfg     | You searched for shgdhfg, we're sorry we couldn't find anything to match your search    | 
-      | dsfsdf      | You searched for dsfsdf, we're sorry we couldn't find anything to match your search     | 
-      | Jeansdasd   | You searched for Jeansdasd, we're sorry we couldn't find anything to match your search  | 
+      | term      | msg                                                                                    | 
+      | shgdhfg   | You searched for shgdhfg, we're sorry we couldn't find anything to match your search   | 
+      | dsfsdf    | You searched for dsfsdf, we're sorry we couldn't find anything to match your search    | 
+      | Jeansdasd | You searched for Jeansdasd, we're sorry we couldn't find anything to match your search | 
   
   Scenario: Display only a single Item from search result
     Given I have entered a valid search term "Jeans"
@@ -43,16 +43,17 @@ So that I can locate the items that I am interested
      Then I should be on the "<result>" category page
   
     Examples: 
-      |      category    |      result           |  
-      | HOME & FURNITURE |   HOME & FURNITURE    |
-      | FOOD & WINE      |    FOOD & WINE        |
+      | category         | result           | 
+      | HOME & FURNITURE | HOME & FURNITURE | 
+      | FOOD & WINE      | FOOD & WINE      | 
   
   Scenario: Locate a M&S store
     Given I search for location in "Edgware Road"
      Then I should see "Edgware Road" store on the list 
- 
+  
   #@wip 
   #Scenario: Register a new user
   #  Given I am on the registration page
   #   When I enter my personal details
   #    And I confirm registration
+  

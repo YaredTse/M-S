@@ -30,11 +30,11 @@ Then(/^I should have a list of items related to my search$/) do
     expect(@homepage.search_result).to be_visible
 end
 
-When(/^I select the first iteam from the search$/) do
+When(/^I select the first item from the search$/) do
   @homepage.list_of_products.first.click
 end
 
-Then(/^I should be on the iteam details page$/) do
+Then(/^I should be on the item details page$/) do
   @homepage.wait_for_product_detail_page
   expect(@homepage.product_detail_page).to be_visible
 end
