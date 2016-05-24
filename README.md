@@ -13,3 +13,9 @@ Here's an a list of prerequisite in order to run the tests:
 ```ruby
 ruby '2.0.0'
 ```
+
+Once you have ruby installed then please install bundler
+
+```ruby
+bundle install
+```
