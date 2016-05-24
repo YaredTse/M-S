@@ -68,10 +68,17 @@ At this point you should have eveything you need to run the test, and you can do
 By this point you should have everything set up and ready to run test.  And in order to run it you should be under ** test/M-S/test-ms ** directory, and choose whichever flavour you prefer using from the following list. 
 
 File by file 
-- cucumber  features/simple_search.feature
+```ruby
+cucumber  features/simple_search.feature
+```
 
 Scenaryo by scenario
-- cucumber  features/simple_search.feature:19
+```ruby
+cucumber  features/simple_search.feature:10
+```
 
 Entitre test suit
-- cucumber  
+```ruby
+cucumber
+```
+ 
