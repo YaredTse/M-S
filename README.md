@@ -22,7 +22,16 @@ bundle install
 
 The next step is to install Cucumber it's self as well as  other dependencies, using bundler
 
+change directory to root directory from where Gemfile is present, and execute the following command,
+
+```ruby
+cd M-S/test-ms
+```
+
+And now installing of the Gems
+
 ```ruby
 bundle install
 ```
-```
+
+At this point you should have eveything you need to run the test, and you can do 
