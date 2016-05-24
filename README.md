@@ -11,7 +11,7 @@ Here's an a list of prerequisite in order to run the tests:
 
 First thing you need to clone the project from github,
 
-* [Test Framework Link(https://github.com/YaredTse/M-S.git)
+* [Test Framework Link](https://github.com/YaredTse/M-S.git)
 
 
 ### Ruby
