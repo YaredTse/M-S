@@ -1,21 +1,22 @@
-### M-S Test Framework
+#### M-S Test Framework
 
-##### This is Test Automation Framework, demonstrating how it can be used to incorporate BDD concept using Page Object model design pattern.
+##### This is a demonstrating how a Framework can be developed, with BDD, and Page Object model design pattern.
 
 ##### This test framework is set up in such a way that it works-out-of-the-box with minimum onfiguration required
 
-
-
-You should have Chromedriver installed 
 
 ## Prerequisite
 
 Here's an a list of prerequisite in order to run the tests:
 
-First thing you need
+First thing you need to clone the project from github,
+
+* [Test Framework Link(https://github.com/YaredTse/M-S.git)
 
 
-### Chromdriver,   
+### Chromdriver, 
+
+If you you don't have Chromedriver installed, you might run into problems, 
 
 I have chosen to run the test using Chrome because, I have chrome installed and I work predominatly on Chrome,  and in order to run the test you would need Chromedriver 
 
