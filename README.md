@@ -28,7 +28,7 @@ change directory to root directory from where Gemfile is present, and execute th
 cd M-S/test-ms
 ```
 
-And now installing of the Gems
+And now installing Gems.  Gems are essentially libraries in Java
 
 ```ruby
 bundle install
