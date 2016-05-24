@@ -1,8 +1,9 @@
 ### M-S Test Framework
 
-##### This is a tees coverage demonstrating a simple BDD Framework, on how a UI Automation test Framerork can be developed and maintained using the Page Object model design pattern
+##### This is Test Automation Framework, demonstrating how it can be used to incorporate BDD concept using Page Object model design pattern.
 
-##### This test framework is set up in ssuch a way that it works-out-of-the-box with minimum onfiguration required
+##### This test framework is set up in such a way that it works-out-of-the-box with minimum onfiguration required
+
 
 
 You should have Chromedriver installed 
@@ -10,6 +11,8 @@ You should have Chromedriver installed
 ## Prerequisite
 
 Here's an a list of prerequisite in order to run the tests:
+
+First thing you need
 
 
 ### Chromdriver,   
