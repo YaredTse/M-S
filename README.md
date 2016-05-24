@@ -25,7 +25,7 @@ ruby '2.0.0'
 Once you have ruby installed then please install bundler
 
 ```ruby
-bundle install
+gem install install
 ```
 
 The next step is to install Cucumber, as well as other dependencies, using bundler.
