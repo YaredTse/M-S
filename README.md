@@ -1,11 +1,11 @@
-#### M-S Test Framework
+## M-S Test Framework
 
 ##### This is a demonstration on how a Framework can be developed, with BDD, and Page Object model design pattern in mind.
 
 ##### This test framework is set up in such a way that it works-out-of-the-box with minimum onfiguration required
 
 
-## Prerequisite
+#### Prerequisite
 
 Here's an a list of prerequisite in order to run the tests:
 
