@@ -17,7 +17,7 @@ Here's an a list of prerequisite in order to run the tests:
 I have chosen to run the test using Chrome because, I have chrome installed and I work predominatly on Chrome,  and in order to run the test you would need Chromedriver 
 
 which you can find it here
-* [http://chromedriver.storage.googleapis.com/index.html?path=2.21/](Chromedriver Link)
+* [Chromedriver Link](http://chromedriver.storage.googleapis.com/index.html?path=2.21/)
 
 And extract it and put it under:
 
