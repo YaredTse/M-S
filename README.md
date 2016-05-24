@@ -19,3 +19,10 @@ Once you have ruby installed then please install bundler
 ```ruby
 bundle install
 ```
+
+The next step is to install Cucumber it's self as well as  other dependencies, using bundler
+
+```ruby
+bundle install
+```
+```
